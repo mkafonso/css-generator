@@ -47,6 +47,8 @@ export const ButtonOptions = styled.div`
     display: inline-block;
     width: auto;
     height: 26px;
+    user-select: none;
+    margin-bottom: 20px;
   }
 
   @media (max-width: 830px) {
@@ -68,6 +70,7 @@ export const ButtonPreview = styled.div`
     display: inline-block;
     width: auto;
     height: 26px;
+    user-select: none;
   }
 
   > div.previewContent {
@@ -97,6 +100,7 @@ export const CSSOutput = styled.div`
     display: inline-block;
     width: auto;
     height: 26px;
+    user-select: none;
   }
 `;
 
